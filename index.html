@@ -1,0 +1,70 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Menu Premium</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <script type="text/javascript" src="index.js"></script>
+</head>
+
+<body></body>
+    <div id="app">
+        <div class="row">
+            <div class="col">
+                <h1>Menu Premium</h1>
+                <br>
+                <ul id="liste"></ul>
+            </div>
+            <div class="col">
+                <div class="filtre">
+                    <h3>Filtre</h3>
+                    <br>
+                    Minimum :
+                    <br><br>
+                    <div class="form-rating">
+                        <div class="rating" id="form-rating-1">
+                            <input class="rate-min" id="rating-min-5" type="radio" name="ratingMin" value="5"/>
+                            <label class="full" for="rating-min-5" title="5/5">*****</label>
+                            <input class="rate-min" id="rating-min-4" type="radio" name="ratingMin" value="4"/>
+                            <label class="full" for="rating-min-4" title="4/5">****</label>
+                            <input class="rate-min" id="rating-min-3" type="radio" name="ratingMin" value="3"/>
+                            <label class="full" for="rating-min-3" title="3/5">***</label>
+                            <input class="rate-min" id="rating-min-2" type="radio" name="ratingMin" value="2"/>
+                            <label class="full" for="rating-min-2" title="2/5">**</label>
+                            <input class="rate-min" id="rating-min-1" type="radio" name="ratingMin" value="1" checked="checked"/>
+                            <label class="full" for="rating-min-1" title="1/5">*</label>
+                        </div>
+                    </div>
+                    Maximum :
+                    <br><br>
+                    <div class="form-rating">
+                        <div class="rating" id="form-rating-2">
+                            <input class="rate-max" id="rating-max-5" type="radio" name="ratingMax" value="5" checked="checked"/>
+                            <label class="full" for="rating-max-5" title="5/5">*****</label>
+                            <input class="rate-max" id="rating-max-4" type="radio" name="ratingMax" value="4"/>
+                            <label class="full" for="rating-max-4" title="4/5">****</label>
+                            <input class="rate-max" id="rating-max-3" type="radio" name="ratingMax" value="3"/>
+                            <label class="full" for="rating-max-3" title="3/5">***</label>
+                            <input class="rate-max" id="rating-max-2" type="radio" name="ratingMax" value="2"/>
+                            <label class="full" for="rating-max-2" title="2/5">**</label>
+                            <input class="rate-max" id="rating-max-1" type="radio" name="ratingMax" value="1"/>
+                            <label class="full" for="rating-max-1" title="1/5">*</label>
+                        </div>
+                    </div>
+                    <button class="btn" id="btn-filter">Filtrer</button>
+                </div>
+                <div id="map"></div>
+                <div id="pano"></div>
+            </div>
+        </div>
+    </div>
+
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDrlt-fU551ooHyFDuxJeNrkvMafCZK0Ek&callback=initMap&v=weekly"
+      async
+    ></script>
+</body>
+
+</html>

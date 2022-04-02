@@ -1,0 +1,94 @@
+[
+    {
+        "restaurantName":"Bronco",
+        "address":"39 Rue des Petites Écuries, 75010 Paris",
+        "lat":48.8737815,
+        "long":2.3501649,
+        "ratings":[
+            {
+                "stars":4,
+                "comment":"Un excellent restaurant, j'y reviendrai ! Par contre il vaut mieux aimer la viande."
+            },
+            {
+                "stars":5,
+                "comment":"Tout simplement mon restaurant préféré !"
+            }
+        ]
+    },
+    {
+        "restaurantName":"Babalou",
+        "address":"4 Rue Lamarck, 75018 Paris",
+        "lat":48.8865035,
+        "long":2.3442197,
+        "ratings":[
+            {
+                "stars":5,
+                "comment":"Une minuscule pizzeria délicieuse cachée juste à côté du Sacré choeur !"
+            },
+            {
+                "stars":3,
+                "comment":"J'ai trouvé ça correct, sans plus"
+            }
+        ]
+    },
+    {
+        "restaurantName":"La Taverne",
+        "address":"23 Rue Grande, 77300 Fontainebleau",
+        "lat":48.4046895,
+        "long":2.698543,
+        "ratings":[
+            {
+                "stars":5,
+                "comment":"Endroit sympa, large choix de plats et les quantités sontlargement suffisantes. Il faut revenir aussi l'été pour profiter de la terrasse. Le personnel est très accueillant."
+            },
+            {
+                "stars":5,
+                "comment":"Lieu vraiment très agréable !! On y mange bien et à des prix raisonnables. Les serveuses et serveurs sont dynamiques, souriants et savent rigoler avec vous... De quoi passer un super moment !!!"
+            },
+            {
+                "stars":1,
+                "comment":"JLa note est si peu élevée car après avoir constaté que la place où nous avions été placée (a côté de la machine ou les commandes sont enregistrées) était très bruyante et qu'aucune discussion ne pouvait être menée sans avoir un serveur collé aux bras, nous avons demandé à être déplacé à une autre table (nous n'avions à ce moment qu'une bière et un verre d'eau sur la table). La serveuse nous a fait comprendre à base de soufflement que c'était trop compliqué de déplacer nos verres et nous sommes donc restés à notre table pour profiter de notre repas digne d'un restaurant touristique. Nous ne reviendrons pas."
+            }
+        ]
+    },
+    {
+        "restaurantName":"Le Saint Jean",
+        "address":"13 Pl. Saint-Jean, 77000 Melun",
+        "lat":48.5461722,
+        "long":2.6427838,
+        "ratings":[
+            {
+                "stars":2,
+                "comment":"Nouveau propriétaire depuis cet été. Gros problème d’organisation. Nouveau personnel. Une serveuse nous a servi elle ne parlait même pas français et un anglais approximatif. Nous en sommes sortis déçu. Nous mettons juste deux étoiles car en dessous de la moyenne et pour laisser ce nouveau restaurateur la possibilité de s’installer et de mieux s’organiser. Le patron avait l’air sympa mais, comment dire, pas débordé, mais plutôt décontenancé !"
+            },
+            {
+                "stars":4,
+                "comment":"Découvert par hasard, ce dernier nous a fait bonne impression. Nous avons été bien accueilli, le service est discret et pro, une bonne présentation des plats pour une cuisine améliorée et le tout pour un bon rapport qualité-prix. Belle carte des vins pour les amateurs. A découvrir place Saint Jean.."
+            },
+            {
+                "stars":1,
+                "comment":"Établissement fermé comme les précédents. Depuis les locaux semblent avoir été partagés. Espérons qu'enfin les futurs exploitants tiennent la route."
+            }
+        ]
+    },
+    {
+        "restaurantName":"Au Bureau Dammarie Les Lys",
+        "address":"La cartonnerie - 824 Avenue du Lys La Cartonnerie, 77190 Dammarie-les-Lys",
+        "lat":48.5461722,
+        "long":2.6427838,
+        "ratings":[
+            {
+                "stars":5,
+                "comment":"Nous sommes venu un dimanche, l'accueil à été chaleureux et le service rapide. Ce qui est un plus quand on a prévu de faire des activités après. La carte est fournie et les assiettes bien garnies. Très bonne expérience et personnel sympa."
+            },
+            {
+                "stars":2,
+                "comment":"Abusé, 15€ une salade veggie où il manquait une sauce, même pas une vinaigrette ! Et le must c’est qu’à ce prix là ils mettent de la salade en sachet et du 1er prix bien sûr !! Je fais mieux à la maison et pour moins cher. La seconde fois croque veggie pas trop mal mais ce n’est quand même pas de la grande cuisine. Tout de même un peu cher ! Le service est le reflet du repas."
+            },
+            {
+                "stars":3,
+                "comment":"Lieu agréable, personnel serviable et à l’écoute. J’ai pris un burger avec des frites. C’était très bon, les frites moins bonnes(froides et sèches)."
+            }
+        ]
+    }
+]

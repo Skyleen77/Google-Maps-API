@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+}
+
+#map {
+    height: 100%;
+}
+
+#pano {
+    display: none;
+    height: 50%;
+}
+
+h1 {
+    padding: 20px;
+    padding-top: 40px;
+    text-align: center;
+}
+  
+.custom-map-control-button {
+    background-color: #fff;
+    border: 0;
+    border-radius: 2px;
+    box-shadow: 0 1px 4px -1px rgba(0, 0, 0, 0.3);
+    margin: 10px;
+    padding: 0 0.5em;
+    font: 400 18px Roboto, Arial, sans-serif;
+    overflow: hidden;
+    height: 40px;
+    cursor: pointer;
+}
+
+.custom-map-control-button:hover {
+    background: #ebebeb;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.col {
+    width: 50%;
+    height: 100vh;
+}
+
+.restaurant-title {
+    padding: 20px;
+    margin-top: -1px;
+    border-top: 1px solid #ebebeb;
+    border-bottom: 1px solid #ebebeb;
+}
+
+.comment {
+    margin: 20px 0;
+    border: 1px solid #ebebeb;
+    padding: 10px;
+}
+
+.comments {
+    display: none;
+}
+
+.comments.active {
+    display: block;
+}
+
+.filtre {
+    background-color: white;
+    position: absolute;
+    top: 20px;
+    margin-left: 20px;
+    padding: 30px;
+    border-radius: 8px;
+    z-index: 999999999999999;
+}
+
+.form-rating {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form-rating:not(:last-child) {
+    padding-bottom: 10px;
+}
+  
+.form-rating .rating {
+    display: inline-block;
+    padding: 0 0.25em;
+}
+
+.form-rating .rating legend {
+    float: left;
+    width: 100%;
+    clear: both;
+    padding-bottom: 0.25rem;
+    border-bottom: 1px solid #1e1e1e;
+    margin-bottom: 0.25rem;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.form-rating .rating > input[type="radio"] {
+    display: none;
+}
+
+.form-rating .rating > input[type="radio"] + label {
+    font-size: 0;
+    float: right;
+    clear: left;
+    color: #ABABAB;
+    cursor: pointer;
+    margin: -0.25rem 0.25rem 0.25rem;
+}
+
+.form-rating .rating > input[type="radio"] + label:before {
+    font-size: 15px;
+    display: inline-block;
+    font-family: "Font Awesome 5 Pro";
+    content: "";
+    font-weight: 300;
+}
+
+.form-rating .rating > input[type="radio"]:checked ~ label:before {
+    font-weight: 700;
+}
+
+.form-rating .rating > input[type="radio"] + label:hover,
+.form-rating .rating > input[type="radio"] + label:hover ~ label {
+    color: #FFEA70 !important;
+}
+
+.form-rating .rating > input[type="radio"]:checked ~ label {
+    color: #ffd700;
+    font-weight: 700;
+    position: relative;
+    top: -1px;
+    left: -1px;
+}
+
+.btn {
+    display: inline-block;
+    line-height: 1.5;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: 5px;
+    font-size: 15px;
+    border-radius: 8px;
+    background-color: #ABABAB;
+    width: 100%;
+}
+
+@media screen and (max-width: 991px) {
+    
+    .row {
+        flex-direction: column-reverse;
+    }
+    
+    .col {
+        width: 100%;
+    }
+}
